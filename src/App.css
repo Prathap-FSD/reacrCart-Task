@@ -1,0 +1,43 @@
+.App{
+  background: linear-gradient(to right, rgba(0, 89, 255, 0.939) , rgb(0, 187, 255));
+  min-height: 100vh;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: row;
+  gap: 38px 1px;
+}
+.card-header h1,h5{
+text-align: center;
+}
+.card-header {
+  background-color: #ffffff;
+
+}
+.card-header h5{
+color: grey;
+
+}
+.card{
+  padding: 24px;
+}
+.card-body ul {
+  list-style-type: none;
+
+}
+.card-body ul li{
+  line-height: 52px;
+  font-weight: 600;
+  font-size: 18px;
+  color: rgb(86, 86, 86);
+
+}
+.btn-primary{
+  width: 100%;
+}
+.fa-solid{
+
+  font-size: 22px;
+      margin-right: 12px;
+}
